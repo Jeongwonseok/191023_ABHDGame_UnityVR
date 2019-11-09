@@ -5,6 +5,7 @@ using UnityEngine;
 public class StoryChange : MonoBehaviour
 {
     [SerializeField] GameObject go_Story_UI;
+    [SerializeField] GameObject go_Main_UI;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class StoryChange : MonoBehaviour
     public void SceneChange_Story()
     {
         go_Story_UI.SetActive(true);
+        go_Main_UI.SetActive(false);
         //SceneManager.LoadScene("Scene1_dialog");
     }
 }

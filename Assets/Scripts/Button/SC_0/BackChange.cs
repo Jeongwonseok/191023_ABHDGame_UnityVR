@@ -5,6 +5,7 @@ using UnityEngine;
 public class BackChange : MonoBehaviour
 {
     [SerializeField] GameObject go_Back_UI;
+    [SerializeField] GameObject go_Main_UI;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class BackChange : MonoBehaviour
     public void SceneChange_Back()
     {
         go_Back_UI.SetActive(false);
+        go_Main_UI.SetActive(true);
         //SceneManager.LoadScene("Scene1_dialog");
     }
 }

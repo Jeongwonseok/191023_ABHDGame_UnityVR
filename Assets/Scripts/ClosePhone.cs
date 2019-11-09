@@ -34,4 +34,9 @@ public class ClosePhone : MonoBehaviour
         }
     }
 
+    //public IEnumerator GameOver()
+    //{
+    //    Phone
+    //}
+
 }

@@ -24,11 +24,13 @@ public class BtnBook : MonoBehaviour
 
     public void Btn_OpenBook()
     {
-        Book_UI.SetActive(false);
-        // 여기에 애니메이션 실행해야함 >> 일단 임시로!!
+        //Book_UI.SetActive(false);
+        //// 여기에 애니메이션 실행해야함 >> 일단 임시로!!
 
         // 책 힌트 제공
         Book_Hint.SetActive(true);
+
+        Destroy(Book_UI);
         
     }
 }

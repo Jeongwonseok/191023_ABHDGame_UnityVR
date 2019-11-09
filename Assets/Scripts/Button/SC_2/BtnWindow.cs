@@ -21,12 +21,14 @@ public class BtnWindow : MonoBehaviour
 
     }
 
-    public void Btn_SoundOffAlarm()
+    public void Btn_SoundOffWindow()
     {
-        Window_UI.SetActive(false);
+        //Window_UI.SetActive(false);
         // 여기에 애니메이션 실행해야함 >> 일단 임시로!!
 
         // 알람 사운드 끄기
         sound_Window.Stop();
+
+        Destroy(Window_UI);
     }
 }

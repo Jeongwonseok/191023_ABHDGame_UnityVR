@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class TimerGameOverLogic : MonoBehaviour
 {
     // 초 저장 변수
-    int countDownStartValue = 30;
+    int countDownStartValue = 300;
     public Text timerUI;
     [SerializeField] AudioSource sound_gameover;
 

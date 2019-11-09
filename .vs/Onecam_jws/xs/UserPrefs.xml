@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{8F3BF750-D8B8-7674-CE8F-B0C69EA83162}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Button/SC_2/BtnWindow.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ClosePhone.cs" Line="31" Column="13" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnPhone.cs" Line="43" Column="1" />
+      <File FileName="Assets/Scripts/TimerGameOverLogic.cs" Line="11" Column="34" />
+      <File FileName="Assets/Scripts/Button/SC_0/BackChange.cs" Line="25" Column="36" />
+      <File FileName="Assets/Scripts/Button/SC_0/StoryChange.cs" Line="8" Column="5" />
+      <File FileName="Assets/Scripts/ClosePos.cs" Line="32" Column="37" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnAlarm.cs" Line="31" Column="1" />
+      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnBook.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnWindow.cs" Line="14" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Onecam_jws" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Oculus" expanded="True">
+                <Node name="VR" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="Util" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Button" expanded="True">
+                  <Node name="SC_0" expanded="True" />
+                  <Node name="SC_2" expanded="True">
+                    <Node name="BtnWindow.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="77fe1e18-e1c9-455a-8b4b-712c1e6cdf75" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

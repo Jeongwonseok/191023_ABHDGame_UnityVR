@@ -23,10 +23,12 @@ public class BtnAlarm : MonoBehaviour
 
     public void Btn_SoundOffAlarm()
     {
-        Alarm_UI.SetActive(false);
-        // 여기에 애니메이션 실행해야함 >> 일단 임시로!!
+        //Alarm_UI.SetActive(false);
+        //// 여기에 애니메이션 실행해야함 >> 일단 임시로!!
 
         // 알람 사운드 끄기
         sound_Alarm.Stop();
+
+        Destroy(Alarm_UI);
     }
 }

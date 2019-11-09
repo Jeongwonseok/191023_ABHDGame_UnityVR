@@ -32,22 +32,17 @@ public class BtnPhone : MonoBehaviour
 
         //Clear_UI.SetActive(true);
 
-        StartCoroutine(GameClear());
-        
-    }
-
-    IEnumerator GameClear()
-    {
-
         // 여기에 핸드폰 보이게 
         Phone.GetComponent<Renderer>().enabled = true;
 
-        //Phone_UI.SetActive(false);
-
         Clear_UI.SetActive(true);
 
-        yield return new WaitForSeconds(5); //WaitForSeconds객체를 생성해서 반환
+        Invoke("GameClear", 5.0f);
 
+    }
+
+    void GameClear()
+    {
         SceneManager.LoadScene("Scene0_intro");
     }
 }
