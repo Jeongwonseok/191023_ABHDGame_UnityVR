@@ -63,7 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Import_2\Scenes\Sakura'sRoom\VRKanojo\Scripts\SunShaftsController.cs" />
-    <Compile Include="Assets\LevelChanger.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -368,6 +367,7 @@
     <Compile Include="Assets\Scripts\Button\SC_2\BtnWindow.cs" />
     <Compile Include="Assets\Scripts\ClosePhone.cs" />
     <Compile Include="Assets\Scripts\ClosePos.cs" />
+    <Compile Include="Assets\Scripts\LevelChanger.cs" />
     <Compile Include="Assets\Scripts\Manager\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Manager\SoundManager.cs" />
     <Compile Include="Assets\Scripts\OpenWindow.cs" />

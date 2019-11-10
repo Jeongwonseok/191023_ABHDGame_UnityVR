@@ -34,6 +34,6 @@ public class RenderTest : MonoBehaviour
         //isSoundTv = false;
 
         // UI 오브젝트 파괴
-        go_UI.SetActive(false);
+        Destroy(go_UI);
     }
 }
