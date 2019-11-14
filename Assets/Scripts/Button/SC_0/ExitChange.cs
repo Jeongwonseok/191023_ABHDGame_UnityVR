@@ -20,6 +20,7 @@ public class ExitChange : MonoBehaviour
 
     public void SceneChange()
     {
+        // App 종료 코딩 해야함!!
         //Application.Quit();
     }
 

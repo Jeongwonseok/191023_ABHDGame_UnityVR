@@ -15,8 +15,6 @@ public class TimerGameOverLogic : MonoBehaviour
     [SerializeField]
     public GameObject game_over;
 
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -40,11 +38,7 @@ public class TimerGameOverLogic : MonoBehaviour
         }
         else
         {
-            StartCoroutine(GameOver());
-
-            // 이부분에 다음 씬 넘기기!!
-            //timerUI.text = "GameOver!";
-            
+            StartCoroutine(GameOver());          
         }
     }
 

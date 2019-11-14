@@ -7,6 +7,7 @@ public class BtnBook : MonoBehaviour
     [SerializeField] GameObject Book;
     [SerializeField] GameObject Book_UI;
     [SerializeField] GameObject Book_Hint;
+    [SerializeField] Animator Book_anim; // Animator 선언
     
 
 
@@ -24,13 +25,11 @@ public class BtnBook : MonoBehaviour
 
     public void Btn_OpenBook()
     {
-        //Book_UI.SetActive(false);
-        //// 여기에 애니메이션 실행해야함 >> 일단 임시로!!
-
-        // 책 힌트 제공
+        // 책 힌트 UI 활성화
         Book_Hint.SetActive(true);
-
+        // 책 버튼 파괴
         Destroy(Book_UI);
-        
+        // 책 멈추기 트리거 발동
+        Book_anim.SetTrigger("Stop");
     }
 }

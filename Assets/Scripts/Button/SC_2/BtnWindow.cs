@@ -6,8 +6,8 @@ public class BtnWindow : MonoBehaviour
 {
     [SerializeField] GameObject Window;
     [SerializeField] GameObject Window_UI;
-
     [SerializeField] AudioSource sound_Window;
+    [SerializeField] Animator Window_anim;
 
     // Start is called before the first frame update
     void Start()
@@ -23,12 +23,11 @@ public class BtnWindow : MonoBehaviour
 
     public void Btn_SoundOffWindow()
     {
-        //Window_UI.SetActive(false);
-        // 여기에 애니메이션 실행해야함 >> 일단 임시로!!
-
-        // 알람 사운드 끄기
+        // 창문 사운드 Off
         sound_Window.Stop();
-
+        // 창문 UI 파괴
         Destroy(Window_UI);
+        // 창문 Animator 트리거 발동
+        Window_anim.SetTrigger("Stop");
     }
 }

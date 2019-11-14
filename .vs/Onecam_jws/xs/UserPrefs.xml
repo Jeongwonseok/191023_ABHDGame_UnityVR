@@ -1,17 +1,12 @@
 ﻿<Properties StartupConfiguration="{8F3BF750-D8B8-7674-CE8F-B0C69EA83162}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RenderTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/ClosePhone.cs" Line="31" Column="13" />
+      <File FileName="Assets/Scripts/TimerGameOverLogic.cs" Line="21" Column="26" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnBook.cs" />
       <File FileName="Assets/Scripts/Button/SC_2/BtnPhone.cs" />
-      <File FileName="Assets/Scripts/TimerGameOverLogic.cs" />
-      <File FileName="Assets/Scripts/Button/SC_0/BackChange.cs" />
-      <File FileName="Assets/Scripts/Button/SC_0/StoryChange.cs" />
-      <File FileName="Assets/Scripts/ClosePos.cs" />
-      <File FileName="Assets/Scripts/Button/SC_2/BtnAlarm.cs" />
-      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Button/SC_2/BtnBook.cs" Line="29" Column="1" />
-      <File FileName="Assets/Scripts/Button/SC_2/BtnWindow.cs" Line="30" Column="29" />
-      <File FileName="Assets/Scripts/RenderTest.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnWindow.cs" />
+      <File FileName="Assets/Scripts/Close/ClosePos.cs" />
+      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs" Line="144" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,16 +16,17 @@
               <Node name="Oculus" expanded="True">
                 <Node name="VR" expanded="True">
                   <Node name="Scripts" expanded="True">
-                    <Node name="Util" expanded="True" />
+                    <Node name="Util" expanded="True">
+                      <Node name="OVRPlayerController.cs" selected="True" />
+                    </Node>
                   </Node>
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
                 <Node name="Button" expanded="True">
-                  <Node name="SC_0" expanded="True" />
                   <Node name="SC_2" expanded="True" />
                 </Node>
-                <Node name="RenderTest.cs" selected="True" />
+                <Node name="Close" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -40,7 +36,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0fbd1585-bc0c-43dc-a1b9-60340adafd93" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="db7c98a1-0458-45ca-a986-090e2862ffb2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

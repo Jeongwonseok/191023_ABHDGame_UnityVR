@@ -21,8 +21,9 @@ public class StoryChange : MonoBehaviour
 
     public void SceneChange_Story()
     {
+        // Story UI 활성화
         go_Story_UI.SetActive(true);
+        // Intro UI 비활성화
         go_Main_UI.SetActive(false);
-        //SceneManager.LoadScene("Scene1_dialog");
     }
 }

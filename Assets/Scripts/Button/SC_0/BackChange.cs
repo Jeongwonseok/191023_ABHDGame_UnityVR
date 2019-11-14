@@ -21,8 +21,9 @@ public class BackChange : MonoBehaviour
 
     public void SceneChange_Back()
     {
+        // Story UI 비활성화
         go_Back_UI.SetActive(false);
+        // Intro UI 활성화 
         go_Main_UI.SetActive(true);
-        //SceneManager.LoadScene("Scene1_dialog");
     }
 }

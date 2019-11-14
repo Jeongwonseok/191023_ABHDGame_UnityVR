@@ -14,7 +14,7 @@ public class DialogueManager : MonoBehaviour
 
     BtnNext theNext;
 
-    bool isNext = true; // 이부분 수정 요망
+    bool isNext = true;
 
     int contextCount = 0;
 
@@ -41,10 +41,6 @@ public class DialogueManager : MonoBehaviour
         // 일단 처음에 새소리 재생
         SoundManager.instance.PlaySE(sound_dialog[contextCount]);
 
-        //일단 임시로
-        //txt_Name.text = arr_name[0];
-        //txt_Dialogue.text = arr_context[0];
-
         SettingUI(true); // 일단 true 세팅 
 
     }
@@ -53,7 +49,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (isNext)
         {
-            if (theNext.isnext) //버튼클릭리스너 클래스에서 bool값 받아오기
+            if (theNext.isnext) //BtnNext 스크립트에서 isnext값 받아오기
             {
                 // 잠시 다 없애고
                 SoundManager.instance.StopSE(sound_dialog[contextCount]);
@@ -75,22 +71,6 @@ public class DialogueManager : MonoBehaviour
         }
 
     }
-
-    //public void ShowDialogue()
-    //{
-
-    //    txt_Dialogue.text = "";
-    //    txt_Name.text = "";
-
-    //    StartCoroutine(TypeWriter());
-    //}
-
-    //// 
-    //IEnumerator WaitForSecondsCoroutine()
-    //{
-    //    yield return new WaitForSeconds(5.0f);
-    //    Debug.Log("5초가 지남!");
-    //}
 
     IEnumerator TypeWriter()
     {
@@ -137,6 +117,7 @@ public class DialogueManager : MonoBehaviour
         
     }
 
+    // UI Setting 메서드
     void SettingUI(bool p_flag)
     {
         go_DialogueBar.SetActive(p_flag);

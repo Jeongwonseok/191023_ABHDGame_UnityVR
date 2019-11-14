@@ -23,6 +23,7 @@ public class StartChange : MonoBehaviour
 
     public void SceneChange_Start()
     {
+        // 게임 시작 하기!! >> 애니메이션 끝에 Scene 전환 메서드 추가되어있음!!
         changer.FadeToNextLevel();
         //SceneManager.LoadScene("Scene1_dialog");
     }

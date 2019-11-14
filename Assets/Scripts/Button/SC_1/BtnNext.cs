@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class BtnNext : MonoBehaviour
 {
-
+    // 다음 대사 넘기기 여부
     public bool isnext = false;
 
     // Start is called before the first frame update
@@ -22,9 +22,7 @@ public class BtnNext : MonoBehaviour
 
     public void Next_2()
     {
+        // 버튼 누르면 다음 대사 넘어가도록 >> DialogueManager 스크립트 참고
         isnext = true;
-
-        // 일단 임시로
-        //SceneManager.LoadScene("Scene2_room");
     }
 }

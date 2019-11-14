@@ -8,7 +8,7 @@ public class BtnPhone : MonoBehaviour
     [SerializeField] GameObject Phone;
     [SerializeField] GameObject Phone_UI;
     [SerializeField] GameObject Clear_UI;
-
+    [SerializeField] AudioSource sound_gameclear;
 
 
     // Start is called before the first frame update
@@ -25,22 +25,17 @@ public class BtnPhone : MonoBehaviour
 
     public void Btn_GameClear()
     {
-        //Phone_UI.SetActive(false);
-
-        //// 여기에 핸드폰 보이게 렌더러 알파값 255
-        //Phone.GetComponent<Renderer>().enabled = true;
-
-        //Clear_UI.SetActive(true);
-
-        // 여기에 핸드폰 보이게 
+        // 핸드폰 렌더러 true
         Phone.GetComponent<Renderer>().enabled = true;
-
+        // Game Clear UI 홣성화
         Clear_UI.SetActive(true);
-
+        // Game Clear 사운드 재생
+        sound_gameclear.Play();
+        // 5초 뒤 Scene 전환
         Invoke("GameClear", 5.0f);
 
     }
-
+    // Scene 전환 메서드
     void GameClear()
     {
         SceneManager.LoadScene("Scene0_intro");

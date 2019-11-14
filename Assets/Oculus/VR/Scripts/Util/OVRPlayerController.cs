@@ -135,12 +135,12 @@ public class OVRPlayerController : MonoBehaviour
 	protected CharacterController Controller = null;
 	protected OVRCameraRig CameraRig = null;
 
-	private float MoveScale = 1.0f;
-	private Vector3 MoveThrottle = Vector3.zero;
+	private float MoveScale = 1.0f; // 이 변수의 값 줄이면 속도 변화 가능!!
+    private Vector3 MoveThrottle = Vector3.zero; // 이 변수의 값 줄이면 속도 변화 가능!!
 	private float FallSpeed = 0.0f;
 	private OVRPose? InitialPose;
 	public float InitialYRotation { get; private set; }
-	private float MoveScaleMultiplier = 1.0f;
+	private float MoveScaleMultiplier = 1.0f; // 이 변수의 값 줄이면 속도 변화 가능!!
 	private float RotationScaleMultiplier = 1.0f;
 	private bool SkipMouseRotation = true; // It is rare to want to use mouse movement in VR, so ignore the mouse by default.
 	private bool HaltUpdateMovement = false;
@@ -345,7 +345,7 @@ public class OVRPlayerController : MonoBehaviour
 				(moveBack && moveLeft) || (moveBack && moveRight))
 				MoveScale = 0.70710678f;
 
-			// No positional movement if we are in the air
+			// No positional movement if we are in the air >> 날아다니면서 움직일수 있게 하려면 이 부분 수정
 			if (!Controller.isGrounded)
 				MoveScale = 0.0f;
 
