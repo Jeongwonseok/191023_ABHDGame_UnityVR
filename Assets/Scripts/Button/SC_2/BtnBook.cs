@@ -8,8 +8,8 @@ public class BtnBook : MonoBehaviour
     [SerializeField] GameObject Book_UI;
     [SerializeField] GameObject Book_Hint;
     [SerializeField] Animator Book_anim; // Animator 선언
-    
 
+    [SerializeField] AudioSource sound_Effect;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +25,8 @@ public class BtnBook : MonoBehaviour
 
     public void Btn_OpenBook()
     {
+        // 버튼 클릭 사운드 활성화
+        sound_Effect.Play();
         // 책 힌트 UI 활성화
         Book_Hint.SetActive(true);
         // 책 버튼 파괴

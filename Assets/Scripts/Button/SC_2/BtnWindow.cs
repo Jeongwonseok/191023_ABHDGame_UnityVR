@@ -9,6 +9,8 @@ public class BtnWindow : MonoBehaviour
     [SerializeField] AudioSource sound_Window;
     [SerializeField] Animator Window_anim;
 
+    [SerializeField] AudioSource sound_Effect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,8 @@ public class BtnWindow : MonoBehaviour
 
     public void Btn_SoundOffWindow()
     {
+        // 버튼 클릭 사운드 활성화
+        sound_Effect.Play();
         // 창문 사운드 Off
         sound_Window.Stop();
         // 창문 UI 파괴

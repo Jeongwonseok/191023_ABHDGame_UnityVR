@@ -14,8 +14,12 @@ public class BtnTv : MonoBehaviour
     [SerializeField]
     public AudioSource sound_Tv;
 
+    [SerializeField] AudioSource sound_Effect;
+
     public void Btn_SoundOffTv()
     {
+        // 버튼 클릭 사운드 활성화
+        sound_Effect.Play();
         // Tv 사운드 중지
         sound_Tv.Stop();
         // Tv UI 파괴

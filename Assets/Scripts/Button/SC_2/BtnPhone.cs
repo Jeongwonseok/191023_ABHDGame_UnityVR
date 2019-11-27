@@ -10,6 +10,7 @@ public class BtnPhone : MonoBehaviour
     [SerializeField] GameObject Clear_UI;
     [SerializeField] AudioSource sound_gameclear;
 
+    [SerializeField] AudioSource sound_Effect;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,8 @@ public class BtnPhone : MonoBehaviour
 
     public void Btn_GameClear()
     {
+        // 버튼 클릭 사운드 활성화
+        sound_Effect.Play();
         // 핸드폰 렌더러 true
         Phone.GetComponent<Renderer>().enabled = true;
         // Game Clear UI 홣성화

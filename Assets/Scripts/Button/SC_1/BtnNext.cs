@@ -8,6 +8,8 @@ public class BtnNext : MonoBehaviour
     // 다음 대사 넘기기 여부
     public bool isnext = false;
 
+    [SerializeField] AudioSource sound_Effect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,9 @@ public class BtnNext : MonoBehaviour
 
     public void Next_2()
     {
+        // 버튼 클릭 사운드 활성화
+        sound_Effect.Play();
+
         // 버튼 누르면 다음 대사 넘어가도록 >> DialogueManager 스크립트 참고
         isnext = true;
     }

@@ -9,6 +9,8 @@ public class BtnAlarm : MonoBehaviour
 
     [SerializeField] AudioSource sound_Alarm;
 
+    [SerializeField] AudioSource sound_Effect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,8 @@ public class BtnAlarm : MonoBehaviour
 
     public void Btn_SoundOffAlarm()
     {
+        // 버튼 클릭 사운드 활성화
+        sound_Effect.Play();
         // 알람 사운드 Off
         sound_Alarm.Stop();
         // 알람 UI 파괴
