@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{8F3BF750-D8B8-7674-CE8F-B0C69EA83162}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Close/ClosePhone.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Button/SC_2/BtnWindow.cs">
     <Files>
-      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs" Line="97" Column="50" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnBook.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Button/SC_1/BtnNext.cs" />
+      <File FileName="Assets/Scripts/Button/SC_1/BtnGame.cs" />
+      <File FileName="Assets/Scripts/Close/ClosePhone.cs" />
+      <File FileName="Assets/Scripts/Close/ClosePos.cs" />
       <File FileName="Assets/Scripts/TimerGameOverLogic.cs" />
-      <File FileName="Assets/Scripts/Button/SC_2/BtnBook.cs" Line="18" Column="6" />
-      <File FileName="Assets/Scripts/Button/SC_2/BtnPhone.cs" Line="45" Column="6" />
-      <File FileName="Assets/Scripts/Button/SC_0/StartChange.cs" Line="29" Column="29" />
-      <File FileName="Assets/Scripts/Close/ClosePhone.cs" Line="17" Column="32" />
-      <File FileName="Assets/Scripts/RandomPhone.cs" Line="20" Column="21" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnPhone.cs" />
+      <File FileName="Assets/Scripts/Manager/DialogueManager.cs" />
+      <File FileName="Assets/Scripts/RandomPhone.cs" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnWindow.cs" Line="28" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,12 +26,12 @@
               </Node>
               <Node name="Scripts" expanded="True">
                 <Node name="Button" expanded="True">
-                  <Node name="SC_0" expanded="True" />
-                  <Node name="SC_2" expanded="True" />
+                  <Node name="SC_2" expanded="True">
+                    <Node name="BtnWindow.cs" selected="True" />
+                  </Node>
                 </Node>
-                <Node name="Close" expanded="True">
-                  <Node name="ClosePhone.cs" selected="True" />
-                </Node>
+                <Node name="Close" expanded="True" />
+                <Node name="Manager" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -38,7 +41,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="589a65e0-3468-4929-b3df-672a56a9c7da" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4778adf9-e2b1-4a80-a413-c5f9692f5194" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
