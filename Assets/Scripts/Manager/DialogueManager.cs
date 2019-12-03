@@ -12,6 +12,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] GameObject btn_next; // 다음 대사로 넘기는 버튼
     [SerializeField] GameObject btn_exit; // 다음 씬으로 넘기는 버튼
 
+    [SerializeField] Animator Dialog_Anim;
+
     BtnNext theNext;
 
     bool isNext = true;
@@ -79,6 +81,7 @@ public class DialogueManager : MonoBehaviour
         // 만약에 배열 인덱스가 마지막 배열이면 게임시작 버튼 true
         if(contextCount == arr_context.Length - 1)
         {
+            Dialog_Anim.SetTrigger("NoAppear");
 
             string t_ReplaceText = arr_context[contextCount];
 
@@ -97,7 +100,22 @@ public class DialogueManager : MonoBehaviour
         }
         else // 아니면 다음 버튼 true
         {
+            if(contextCount == 3)
+            {
+                Dialog_Anim.SetTrigger("Appear");
+            }
+            else if(contextCount == 4)
+            {
+                Dialog_Anim.SetTrigger("Sway");
+            }
+            //else if(contextCount == 5)
+            //{
+            //    Dialog_Anim.SetTrigger("Sway");
+            //}
+            else if(contextCount == 6)
+            {
 
+            }
             string t_ReplaceText = arr_context[contextCount];
 
 
