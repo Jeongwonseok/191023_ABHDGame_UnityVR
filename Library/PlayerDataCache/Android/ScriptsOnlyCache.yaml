@@ -22,6 +22,7 @@ ScriptsOnlyBuild:
     - OvrAvatar
     - OvrAvatarLocalDriver
     - OvrAvatarSettings
+    - RandomPhone
     - SoundManager
     - StartChange
     - StoryChange
@@ -52,12 +53,13 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.UI.Button
@@ -162,39 +164,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11774}
     - Class: 114
-      Script: {instanceID: 11908}
+      Script: {instanceID: 11910}
     - Class: 114
-      Script: {instanceID: 11974}
+      Script: {instanceID: 11976}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12030}
+      Script: {instanceID: 12032}
     - Class: 114
-      Script: {instanceID: 12034}
+      Script: {instanceID: 12036}
     - Class: 114
-      Script: {instanceID: 12176}
+      Script: {instanceID: 12178}
     - Class: 114
-      Script: {instanceID: 12240}
+      Script: {instanceID: 12242}
     - Class: 114
-      Script: {instanceID: 12348}
+      Script: {instanceID: 12350}
     - Class: 114
-      Script: {instanceID: 12438}
+      Script: {instanceID: 12440}
     - Class: 114
-      Script: {instanceID: 12518}
+      Script: {instanceID: 12520}
     - Class: 114
-      Script: {instanceID: 12616}
+      Script: {instanceID: 12618}
     - Class: 114
-      Script: {instanceID: 12636}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 12640}
+      Script: {instanceID: 12642}
     - Class: 114
-      Script: {instanceID: 12744}
+      Script: {instanceID: 12746}
     - Class: 114
-      Script: {instanceID: 12932}
+      Script: {instanceID: 12934}
     - Class: 114
-      Script: {instanceID: 12954}
+      Script: {instanceID: 12956}
     - Class: 114
-      Script: {instanceID: 12966}
+      Script: {instanceID: 12968}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -301,23 +303,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11774}
     - Class: 114
-      Script: {instanceID: 11974}
+      Script: {instanceID: 11976}
     - Class: 114
-      Script: {instanceID: 12034}
+      Script: {instanceID: 12036}
     - Class: 114
-      Script: {instanceID: 12240}
+      Script: {instanceID: 12242}
     - Class: 114
-      Script: {instanceID: 12438}
+      Script: {instanceID: 12440}
     - Class: 114
-      Script: {instanceID: 12616}
+      Script: {instanceID: 12618}
     - Class: 114
-      Script: {instanceID: 12636}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 12694}
+      Script: {instanceID: 12696}
     - Class: 114
-      Script: {instanceID: 12736}
+      Script: {instanceID: 12738}
     - Class: 114
-      Script: {instanceID: 12954}
+      Script: {instanceID: 12956}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -430,23 +432,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11774}
     - Class: 114
-      Script: {instanceID: 11974}
+      Script: {instanceID: 11908}
     - Class: 114
-      Script: {instanceID: 12034}
+      Script: {instanceID: 11976}
     - Class: 114
-      Script: {instanceID: 12240}
+      Script: {instanceID: 12036}
     - Class: 114
-      Script: {instanceID: 12438}
+      Script: {instanceID: 12242}
     - Class: 114
-      Script: {instanceID: 12448}
+      Script: {instanceID: 12440}
     - Class: 114
-      Script: {instanceID: 12616}
+      Script: {instanceID: 12450}
     - Class: 114
-      Script: {instanceID: 12636}
+      Script: {instanceID: 12618}
     - Class: 114
-      Script: {instanceID: 12954}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 13006}
+      Script: {instanceID: 12956}
+    - Class: 114
+      Script: {instanceID: 13008}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1368,7 +1372,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 2e20cf9538f4baff466a42a016953159
+      Hash: 99b05cb518b11af324d3f294501cf84b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DialogueManager
@@ -1528,6 +1532,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ONSPAmbisonicsNative
+  - hash:
+      serializedVersion: 2
+      Hash: a105133d7039cbbe7da73fc9693b9c44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomPhone
   - hash:
       serializedVersion: 2
       Hash: f43958685bca2e70b096da79d079c527
