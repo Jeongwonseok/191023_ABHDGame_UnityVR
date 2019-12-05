@@ -22,7 +22,6 @@ public class BtnTv : MonoBehaviour
         sound_Effect.Play();
         // Tv 사운드 중지
         sound_Tv.Stop();
-        // Tv UI 파괴
-        Destroy(Tv_UI);
+        Tv_Image.SetActive(false);
     }
 }
