@@ -13,7 +13,7 @@
       <File FileName="Assets/Scripts/RandomPhone.cs" />
       <File FileName="Assets/Scripts/Button/SC_2/BtnAlarm.cs" />
       <File FileName="Assets/Scripts/Button/SC_0/StartChange.cs" Line="22" Column="6" />
-      <File FileName="Assets/Scripts/Button/SC_2/BtnTv.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnTv.cs" Line="12" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

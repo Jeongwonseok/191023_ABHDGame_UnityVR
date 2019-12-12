@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes_jws/Scene0_intro.unity
+- path: Assets/Scenes_jws/Scene1_dialog.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
