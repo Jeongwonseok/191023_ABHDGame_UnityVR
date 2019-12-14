@@ -1,19 +1,13 @@
 ﻿<Properties StartupConfiguration="{8F3BF750-D8B8-7674-CE8F-B0C69EA83162}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Button/SC_2/BtnTv.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager/ImageManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Button/SC_2/BtnBook.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Button/SC_1/BtnNext.cs" />
-      <File FileName="Assets/Scripts/Button/SC_1/BtnGame.cs" />
-      <File FileName="Assets/Scripts/Close/ClosePhone.cs" />
-      <File FileName="Assets/Scripts/Close/ClosePos.cs" />
-      <File FileName="Assets/Scripts/TimerGameOverLogic.cs" />
-      <File FileName="Assets/Scripts/Button/SC_2/BtnPhone.cs" />
-      <File FileName="Assets/Scripts/Manager/DialogueManager.cs" />
-      <File FileName="Assets/Scripts/Button/SC_2/BtnWindow.cs" />
-      <File FileName="Assets/Scripts/RandomPhone.cs" />
-      <File FileName="Assets/Scripts/Button/SC_2/BtnAlarm.cs" />
-      <File FileName="Assets/Scripts/Button/SC_0/StartChange.cs" Line="22" Column="6" />
-      <File FileName="Assets/Scripts/Button/SC_2/BtnTv.cs" Line="12" Column="29" />
+      <File FileName="Assets/Scripts/Manager/ImageManager.cs" Line="17" Column="24" />
+      <File FileName="Assets/Scripts/Button/SC_0/BtnNextStory.cs" Line="12" Column="37" />
+      <File FileName="Assets/Scripts/Button/SC_0/BtnBackStory.cs" Line="31" Column="35" />
+      <File FileName="Assets/Scripts/Manager/DialogueManager.cs" Line="43" Column="9" />
+      <File FileName="Assets/Scripts/Button/SC_1/BtnNext.cs" Line="30" Column="9" />
+      <File FileName="Assets/Scripts/Button/SC_1/BtnGame.cs" Line="33" Column="6" />
+      <File FileName="Assets/Scripts/Button/SC_0/StoryChange.cs" Line="26" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,12 +24,13 @@
               <Node name="Scripts" expanded="True">
                 <Node name="Button" expanded="True">
                   <Node name="SC_0" expanded="True" />
-                  <Node name="SC_2" expanded="True">
-                    <Node name="BtnTv.cs" selected="True" />
-                  </Node>
+                  <Node name="SC_1" expanded="True" />
+                  <Node name="SC_2" expanded="True" />
                 </Node>
                 <Node name="Close" expanded="True" />
-                <Node name="Manager" expanded="True" />
+                <Node name="Manager" expanded="True">
+                  <Node name="ImageManager.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -45,7 +40,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="172e9e84-e20d-4749-a8cd-891337e1b1c9" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a35f7f9a-0ebe-4c22-9ac7-294bf5390c58" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

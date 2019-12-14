@@ -355,7 +355,8 @@
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\Helpers\OVRMicInput.cs" />
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceMod.cs" />
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceModContext.cs" />
-    <Compile Include="Assets\Scripts\Button\SC_0\BackChange.cs" />
+    <Compile Include="Assets\Scripts\Button\SC_0\BtnHomeStory.cs" />
+    <Compile Include="Assets\Scripts\Button\SC_0\BtnNextStory.cs" />
     <Compile Include="Assets\Scripts\Button\SC_0\ExitChange.cs" />
     <Compile Include="Assets\Scripts\Button\SC_0\StartChange.cs" />
     <Compile Include="Assets\Scripts\Button\SC_0\StoryChange.cs" />
@@ -369,6 +370,7 @@
     <Compile Include="Assets\Scripts\Close\ClosePhone.cs" />
     <Compile Include="Assets\Scripts\Close\ClosePos.cs" />
     <Compile Include="Assets\Scripts\Manager\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\ImageManager.cs" />
     <Compile Include="Assets\Scripts\Manager\LevelChanger.cs" />
     <Compile Include="Assets\Scripts\Manager\SoundManager.cs" />
     <Compile Include="Assets\Scripts\RandomPhone.cs" />
