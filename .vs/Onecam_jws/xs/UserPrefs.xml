@@ -1,13 +1,23 @@
 ﻿<Properties StartupConfiguration="{8F3BF750-D8B8-7674-CE8F-B0C69EA83162}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager/ImageManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager/DialogueManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Manager/ImageManager.cs" Line="17" Column="24" />
-      <File FileName="Assets/Scripts/Button/SC_0/BtnNextStory.cs" Line="12" Column="37" />
-      <File FileName="Assets/Scripts/Button/SC_0/BtnBackStory.cs" Line="31" Column="35" />
-      <File FileName="Assets/Scripts/Manager/DialogueManager.cs" Line="43" Column="9" />
-      <File FileName="Assets/Scripts/Button/SC_1/BtnNext.cs" Line="30" Column="9" />
-      <File FileName="Assets/Scripts/Button/SC_1/BtnGame.cs" Line="33" Column="6" />
-      <File FileName="Assets/Scripts/Button/SC_0/StoryChange.cs" Line="26" Column="25" />
+      <File FileName="Assets/Scripts/Manager/ImageManager.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/Button/SC_0/BtnHomeStory.cs" />
+      <File FileName="Assets/Scripts/Button/SC_0/BtnNextStory.cs" />
+      <File FileName="Assets/Scripts/Manager/DialogueManager.cs" Line="28" Column="40" />
+      <File FileName="Assets/Scripts/Manager/LevelChanger.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Manager/SoundManager.cs" />
+      <File FileName="Assets/Scripts/TimerGameOverLogic.cs" Line="44" Column="1" />
+      <File FileName="Assets/Scripts/Close/ClosePhone.cs" />
+      <File FileName="Assets/Scripts/Close/ClosePos.cs" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnTv.cs" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnWindow.cs" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnPhone.cs" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnBook.cs" />
+      <File FileName="Assets/Scripts/Button/SC_2/BtnAlarm.cs" />
+      <File FileName="Assets/Scripts/Button/SC_1/BtnNext.cs" />
+      <File FileName="Assets/Scripts/Button/SC_1/BtnGame.cs" />
+      <File FileName="Assets/Scripts/RandomPhone.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,6 +25,13 @@
           <Node name="Onecam_jws" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Oculus" expanded="True">
+                <Node name="SampleFramework" expanded="True">
+                  <Node name="Core" expanded="True">
+                    <Node name="DebugUI" expanded="True">
+                      <Node name="Scripts" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
                 <Node name="VR" expanded="True">
                   <Node name="Scripts" expanded="True">
                     <Node name="Util" expanded="True" />
@@ -29,7 +46,7 @@
                 </Node>
                 <Node name="Close" expanded="True" />
                 <Node name="Manager" expanded="True">
-                  <Node name="ImageManager.cs" selected="True" />
+                  <Node name="DialogueManager.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -40,7 +57,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a35f7f9a-0ebe-4c22-9ac7-294bf5390c58" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="75be8ab7-c111-4383-95e4-367e6c3d2413" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
