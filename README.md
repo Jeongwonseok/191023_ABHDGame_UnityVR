@@ -1,4 +1,4 @@
-ABHDGame (UnityVR)
+ABHD Game (UnityVR)
 ======================
 
 # 1. 개요
@@ -72,6 +72,7 @@ Unity 엔진을 이용해서 사운드 플레이 기반 방 탈출 게임 제작
 - 게임에 등장하는 모든 대화와 그에 상응하는 Image 출력 기능을 담당한다.
 ```
 
+
 * **OVR Player** : Oculus에서 제공하는 Player 컴포넌트와 관련된 C# 스크립트를 오버라이딩하여 기능을 제공한다.
 ```
 * OVR Camera Rig
@@ -84,6 +85,7 @@ Unity 엔진을 이용해서 사운드 플레이 기반 방 탈출 게임 제작
 - Collider 설정과, OVR Grabber 컴포넌트를 이용해 물건 잡기를 구현한다.
 ```
 
+
 * **UI** : 화면에 표시 되어야 할 게임 정보 및 대화와 관련된 모든 정보를 출력하는 기능을 담당한다. 
 ```
 * Game Status
@@ -95,6 +97,7 @@ Unity 엔진을 이용해서 사운드 플레이 기반 방 탈출 게임 제작
 * Dialogue
 - Dialogue Manager를 통해 플레이어와 게임간의 대화 텍스트 출력 및 Animaion 기능을 제공한다.
 ```
+
 
 * **Item** : 게임 Item 고유의 특성 및 Tracking 기능을 정의한다.  
 ```
@@ -130,7 +133,7 @@ Game Clear : 플레이어 오른쪽 컨트롤러를 이용해 핸드폰을 찾�
 ## 3.1. Coroutine
 * **TypeWriter()**<br>
 <p align="center">
-<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro1.png" width="300" height="400"><br>
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro1.png" width="500" height="400"><br>
 </p>
 
 ```
@@ -140,7 +143,7 @@ Game Clear : 플레이어 오른쪽 컨트롤러를 이용해 핸드폰을 찾�
 ```
 
 <p align="center">
-<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro2.png" width="300" height="400"><br>
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro2.png" width="500" height="400"><br>
 </p>
 
 ```
@@ -151,7 +154,7 @@ Game Clear : 플레이어 오른쪽 컨트롤러를 이용해 핸드폰을 찾�
 ```
 
 <p align="center">
-<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro3.png" width="300" height="400"><br>
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro3.png" width="500" height="400"><br>
 </p>
 
 ```
@@ -165,7 +168,7 @@ Game Clear : 플레이어 오른쪽 컨트롤러를 이용해 핸드폰을 찾�
 
 * **CountDownTimer()**<br>
 <p align="center">
-<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro4.png" width="300" height="400"><br>
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro4.png" width="500" height="400"><br>
 </p>
 
 ```
@@ -179,7 +182,7 @@ Game Clear : 플레이어 오른쪽 컨트롤러를 이용해 핸드폰을 찾�
 ## 3.2. ClosePos
 * **ClosePhone()**
 <p align="center">
-<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/close.png" width="300" height="400"><br>
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/close.png" width="500" height="400"><br>
 </p>
 
 ```
@@ -192,19 +195,22 @@ Game Clear : 플레이어 오른쪽 컨트롤러를 이용해 핸드폰을 찾�
 ****
 # 4. 참고
 ## 4.1. 참여 목록
-* **2019 콘텐츠원캠퍼스 구축운영 및 VR 콘텐츠 개발 사업**
-    -입체 및 공간 음향을 활용한 방 탈출 게임(VR) 개발
-    [문화체육관광부, KOCCA(한국콘텐츠진흥원), 성결대학교 산학협력단, XRCENTER, 안양창조산업진흥원]
-* **학생주도 연구 프로그램 지원 사업**
-    -노력 정당화 이론 기반의 가상현실 콘텐츠 개발
+* **2019 콘텐츠원캠퍼스 구축운영 및 VR 콘텐츠 개발 사업**<br>
+    -입체 및 공간 음향을 활용한 방 탈출 게임(VR) 개발<br>
+    [문화체육관광부, KOCCA(한국콘텐츠진흥원), 성결대학교 산학협력단, XRCENTER, 안양창조산업진흥원]<br>
+    
+* **학생주도 연구 프로그램 지원 사업**<br>
+    -노력 정당화 이론 기반의 가상현실 콘텐츠 개발<br>
     [성결대학교 미래발전연구원]
 
 ## 4.2. 스크린 샷
-![ref2](https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/스크린1.png)
+<p align="center">
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/스크린1.png" width="700" height="250"><br>
+</p>
 
-
-
-![ref2](https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/스크린2.png)
+<p align="center">
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/스크린2.png" width="700" height="400"><br>
+</p>
 
 ## 4.3. 참고 url
 * 게임 플레이 영상 : <https://youtu.be/BGeL1tWlY9w/>
