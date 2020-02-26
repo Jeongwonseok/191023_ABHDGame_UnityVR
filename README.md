@@ -61,7 +61,9 @@ Unity 엔진을 이용해서 사운드 플레이 기반 방 탈출 게임 제작
 ****
 # 2. 구조 설계
 ## 2.1. 클래스 구조도
-![클래스](https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/클래스.png)
+<p align="center">
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/클래스.png" width="800" height="300"><br>
+</p>
 
 * **Game Manager** : 게임에 대한 전체적인 흐름을 담당한다. (Scene, Fade In & out, Timer UI, Story Image)
 ```
@@ -112,7 +114,10 @@ Unity 엔진을 이용해서 사운드 플레이 기반 방 탈출 게임 제작
 ```
 
 ## 2.2. 씬 구조도
-![씬](https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/씬.png)
+<p align="center">
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/씬.png" width="800" height="300"><br>
+</p>
+
 * **구성**
 ```
 * Intro
@@ -205,7 +210,7 @@ Game Clear : 플레이어 오른쪽 컨트롤러를 이용해 핸드폰을 찾�
 
 ## 4.2. 스크린 샷
 <p align="center">
-<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/스크린1.png" width="700" height="250"><br>
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/스크린1.png" width="800" height="300"><br>
 </p>
 
 <p align="center">
