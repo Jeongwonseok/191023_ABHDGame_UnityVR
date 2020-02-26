@@ -143,7 +143,7 @@ Game Clear : 플레이어 오른쪽 컨트롤러를 이용해 핸드폰을 찾�
 ```
 
 <p align="center">
-<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro2.png" width="500" height="400"><br>
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro2.png" width="500" height="500"><br>
 </p>
 
 ```
@@ -168,7 +168,7 @@ Game Clear : 플레이어 오른쪽 컨트롤러를 이용해 핸드폰을 찾�
 
 * **CountDownTimer()**<br>
 <p align="center">
-<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro4.png" width="500" height="400"><br>
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/coro4.png" width="600" height="500"><br>
 </p>
 
 ```
