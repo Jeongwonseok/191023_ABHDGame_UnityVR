@@ -62,7 +62,7 @@ Unity 엔진을 이용해서 사운드 플레이 기반 방 탈출 게임 제작
 # 2. 구조 설계
 ## 2.1. 클래스 구조도
 <p align="center">
-<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/클래스.png" width="800" height="300"><br>
+<img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/ABHD/클래스.png" width="700" height="350"><br>
 </p>
 
 * **Game Manager** : 게임에 대한 전체적인 흐름을 담당한다. (Scene, Fade In & out, Timer UI, Story Image)
