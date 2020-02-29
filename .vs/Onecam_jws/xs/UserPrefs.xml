@@ -5,9 +5,9 @@
       <File FileName="Assets/Scripts/Button/SC_0/BtnHomeStory.cs" />
       <File FileName="Assets/Scripts/Button/SC_0/BtnNextStory.cs" />
       <File FileName="Assets/Scripts/Manager/DialogueManager.cs" Line="28" Column="40" />
-      <File FileName="Assets/Scripts/Manager/LevelChanger.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Manager/LevelChanger.cs" />
       <File FileName="Assets/Scripts/Manager/SoundManager.cs" />
-      <File FileName="Assets/Scripts/TimerGameOverLogic.cs" Line="44" Column="1" />
+      <File FileName="Assets/Scripts/TimerGameOverLogic.cs" />
       <File FileName="Assets/Scripts/Close/ClosePhone.cs" />
       <File FileName="Assets/Scripts/Close/ClosePos.cs" />
       <File FileName="Assets/Scripts/Button/SC_2/BtnTv.cs" />
@@ -17,7 +17,7 @@
       <File FileName="Assets/Scripts/Button/SC_2/BtnAlarm.cs" />
       <File FileName="Assets/Scripts/Button/SC_1/BtnNext.cs" />
       <File FileName="Assets/Scripts/Button/SC_1/BtnGame.cs" />
-      <File FileName="Assets/Scripts/RandomPhone.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RandomPhone.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -57,7 +57,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="75be8ab7-c111-4383-95e4-367e6c3d2413" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fa741809-5a18-4814-9d56-695cbacea252" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
