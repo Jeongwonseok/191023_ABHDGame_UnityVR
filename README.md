@@ -218,4 +218,4 @@ Unity 엔진을 이용해서 사운드 플레이 기반 방 탈출 게임 제작
 </p>
 
 ## 4.3. 참고 url
-* 게임 플레이 영상 : <https://youtu.be/BGeL1tWlY9w/>
+* 게임 플레이 영상 : <https://www.youtube.com/watch?v=kEGbe47qCnM/>
